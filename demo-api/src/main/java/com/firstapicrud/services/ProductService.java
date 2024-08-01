@@ -35,4 +35,8 @@ public class ProductService {
 	public List<Product> findByName(String  name){
 		return productRepo.findByNameContains(name);
 	}
+
+     public boolean existsById(Long id) {
+        return productRepo.existsById(id);
+    }
 }
