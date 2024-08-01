@@ -1,0 +1,32 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Spring Boot-DemoApiApplication (com.firstapicrud.demo_api)",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "mainClass": "com.firstapicrud.demo_api.DemoApiApplication",
+      "projectName": "demo-api",
+      "args": "",
+      "envFile": "${workspaceFolder}/.env"
+    },
+    {
+      "type": "java",
+      "name": "Spring Boot-DemoApiApplication (com.firstapicrud)",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "mainClass": "com.firstapicrud.DemoApiApplication",
+      "projectName": "demo-api",
+      "args": "",
+      "envFile": "${workspaceFolder}/.env"
+    },
+    {
+      "type": "java",
+      "name": "Debug (Attach)",
+      "request": "attach",
+      "hostName": "localhost",
+      "port": 5005
+    }
+  ]
+}
